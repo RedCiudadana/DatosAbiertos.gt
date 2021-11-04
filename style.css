@@ -3646,7 +3646,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-	color: #1ABC9C;
+	color: #f0b52b;
 }
 
 .menu-item.sub-menu > .menu-link > div { }
@@ -4195,7 +4195,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.style-3 .menu-container > .menu-item.current > .menu-link {
 		color: #FFF;
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-		background-color: #1ABC9C;
+		background-color: #f0b52b;
 	}
 
 
