@@ -16762,3 +16762,8 @@ label.checkbox { padding-left: 20px; }
 .ft30{
 	font-size: 30px!important
 }
+
+.btn-morado{
+	background-color: #9041c8;
+	color: #fff;
+}
