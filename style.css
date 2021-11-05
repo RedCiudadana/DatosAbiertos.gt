@@ -16767,3 +16767,8 @@ label.checkbox { padding-left: 20px; }
 	background-color: #9041c8;
 	color: #fff;
 }
+
+.cuadro-img:hover{
+	background-color: #f0b52b;
+}
+
