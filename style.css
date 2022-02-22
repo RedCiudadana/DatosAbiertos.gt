@@ -8908,6 +8908,25 @@ td.actions {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
+.button2 {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 8px 22px;
+	font-size: 0.875rem;
+	line-height: 24px;
+	background-color: #1ABC9C;
+	color: #FFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
 body:not(.device-touch) .button {
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
@@ -8926,6 +8945,13 @@ body:not(.device-touch) .button {
 
 .button:hover {
 	background-color: #444;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.button2:hover {
+	background-color: #9041c8!important;
+	border-color: #9041c8!important;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -9023,6 +9049,22 @@ body:not(.device-touch) .button {
 	color: #333;
 	font-weight: 700;
 	text-shadow: none;
+}
+
+.button2.button-border2 {
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #333;
+	font-weight: 700;
+	text-shadow: none;
+}
+
+
+.button-border2:hover {
+	background-color: #9041c8!important;
+	border-color: #9041c8!important;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .button.button-border-thin {
